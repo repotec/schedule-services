@@ -337,6 +337,24 @@
         "path": "utils/apisClient.js",
         "cdnPath": "apisClient"
       }
+    },
+    "config":{
+      "cdn": "internal",
+      "cwd": "utils",
+      "debug": {
+        "src": [
+          "config.js"
+        ],
+        "path": "utils/config.js",
+        "cdnPath": "config"
+      },
+      "release": {
+        "src": [
+          "config.js"
+        ],
+        "path": "utils/config.js",
+        "cdnPath": "config"
+      }
     }
 
   }
